@@ -144,6 +144,12 @@ it('Example mock handle retrieval', function (ClassA $mock) {
 
 For the full copyright and license information, please view the [LICENSE file].
 
+## Note
+
+This is a fork of the now unmaintained [eloquent/phony-kahlan]. The original purpose of this fork
+was to allow for compatibility with PHP 8.3. Be aware that I do not intend to regularly 
+maintain this other than to keep it up to date with PHP as needed.
+
 <!-- References -->
 
 [`on()`]: http://eloquent-software.com/phony/latest/#facade.on
@@ -161,3 +167,4 @@ For the full copyright and license information, please view the [LICENSE file].
 [supported]: #supported-types
 [type declaration]: http://php.net/functions.arguments#functions.arguments.type-declaration
 [verification]: http://eloquent-software.com/phony/latest/#verification
+[eloquent/phony-kahlan]: https://packagist.org/packages/eloquent/phony-kahlan
