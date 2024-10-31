@@ -1,19 +1,13 @@
-> # No longer maintained
->
-> This package is no longer maintained. See [this statement] for more info.
->
-> [this statement]: https://gist.github.com/ezzatron/713a548735febe3d76f8ca831bc895c0
-
-# Phony for Kahlan
+ Phony for Kahlan
 
 [![Current version image][version-image]][current version]
 
-[current version]: https://packagist.org/packages/eloquent/phony-kahlan
-[version-image]: https://img.shields.io/packagist/v/eloquent/phony-kahlan.svg?style=flat-square "This project uses semantic versioning"
+[current version]: https://packagist.org/packages/nathanetech/phony-kahlan
+[version-image]: https://img.shields.io/packagist/v/nathanetech/phony-kahlan.svg?style=flat-square "This project uses semantic versioning"
 
 ## Installation
 
-    composer require --dev eloquent/phony-kahlan
+    composer require --dev nathanetech/phony-kahlan
 
 ## See also
 
@@ -23,7 +17,7 @@
 
 [documentation]: http://eloquent-software.com/phony/latest/
 [kahlan documentation]: https://kahlan.github.io/docs/
-[main phony repository]: https://github.com/eloquent/phony
+[main phony repository]: https://github.com/nathanetech/phony
 
 ## What is *Phony for Kahlan*?
 
