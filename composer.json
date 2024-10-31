@@ -1,5 +1,5 @@
 {
-  "name": "eloquent/phony-kahlan",
+  "name": "nathanetech/phony-kahlan",
   "description": "Phony for Kahlan.",
   "keywords": [
     "mock",
@@ -29,7 +29,7 @@
   ],
   "require": {
     "php": "^8.3",
-    "eloquent/phony": "dev-fix/update-for-php-8.3",
+    "nathanetech/phony": "dev-fix/update-for-php-8.3",
     "kahlan/kahlan": "^5"
   },
   "require-dev": {
