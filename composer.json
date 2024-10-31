@@ -23,8 +23,17 @@
   ],
   "repositories": [
     {
-      "type": "vcs",
-      "url": "git@github.com:nathanetech/phony.git"
+      "packagist.org": false,
+      "type": "package",
+      "package": {
+        "name": "nathanetech/phony",
+        "version": "dev-fix/update-for-php-8.3",
+        "source": {
+          "type": "git",
+          "url": "https://github.com/nathanetech/phony",
+          "reference": "fix/update-for-php-8.3"
+        }
+      }
     }
   ],
   "require": {
