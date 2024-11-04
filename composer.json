@@ -1,5 +1,5 @@
 {
-  "name": "nathanetech/phony-kahlan",
+  "name": "teamgantt/phony-kahlan",
   "description": "Phony for Kahlan.",
   "keywords": [
     "mock",
@@ -19,6 +19,10 @@
       "name": "Erin Millard",
       "email": "ezzatron@gmail.com",
       "homepage": "http://ezzatron.com/"
+    },
+    {
+      "name": "Nathan Tech",
+      "email": "dev@teamgantt.com"
     }
   ],
   "repositories": [
@@ -38,7 +42,7 @@
   ],
   "require": {
     "php": "^8.3",
-    "nathanetech/phony": "dev-fix/update-for-php-8.3",
+    "teamgantt/phony": "dev-fix/update-for-php-8.3",
     "kahlan/kahlan": "^5"
   },
   "require-dev": {
