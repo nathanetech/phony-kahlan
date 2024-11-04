@@ -25,24 +25,9 @@
       "email": "dev@teamgantt.com"
     }
   ],
-  "repositories": [
-    {
-      "packagist.org": false,
-      "type": "package",
-      "package": {
-        "name": "nathanetech/phony",
-        "version": "dev-fix/update-for-php-8.3",
-        "source": {
-          "type": "git",
-          "url": "https://github.com/nathanetech/phony",
-          "reference": "fix/update-for-php-8.3"
-        }
-      }
-    }
-  ],
   "require": {
     "php": "^8.3",
-    "teamgantt/phony": "dev-fix/update-for-php-8.3",
+    "teamgantt/phony": "^1",
     "kahlan/kahlan": "^5"
   },
   "require-dev": {
