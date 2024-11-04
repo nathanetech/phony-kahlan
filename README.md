@@ -1,19 +1,13 @@
-> # No longer maintained
->
-> This package is no longer maintained. See [this statement] for more info.
->
-> [this statement]: https://gist.github.com/ezzatron/713a548735febe3d76f8ca831bc895c0
-
-# Phony for Kahlan
+ Phony for Kahlan
 
 [![Current version image][version-image]][current version]
 
-[current version]: https://packagist.org/packages/eloquent/phony-kahlan
-[version-image]: https://img.shields.io/packagist/v/eloquent/phony-kahlan.svg?style=flat-square "This project uses semantic versioning"
+[current version]: https://packagist.org/packages/teamgantt/phony-kahlan
+[version-image]: https://img.shields.io/packagist/v/teamgantt/phony-kahlan.svg?style=flat-square "This project uses semantic versioning"
 
 ## Installation
 
-    composer require --dev eloquent/phony-kahlan
+    composer require --dev teamgantt/phony-kahlan
 
 ## See also
 
@@ -23,7 +17,7 @@
 
 [documentation]: http://eloquent-software.com/phony/latest/
 [kahlan documentation]: https://kahlan.github.io/docs/
-[main phony repository]: https://github.com/eloquent/phony
+[main phony repository]: https://github.com/teamgantt/phony
 
 ## What is *Phony for Kahlan*?
 
@@ -150,6 +144,12 @@ it('Example mock handle retrieval', function (ClassA $mock) {
 
 For the full copyright and license information, please view the [LICENSE file].
 
+## Note
+
+This is a fork of the now unmaintained [eloquent/phony-kahlan]. The original purpose of this fork
+was to allow for compatibility with PHP 8.3. Be aware that we do not intend to regularly 
+maintain this other than to keep it up to date with PHP as needed.
+
 <!-- References -->
 
 [`on()`]: http://eloquent-software.com/phony/latest/#facade.on
@@ -167,3 +167,4 @@ For the full copyright and license information, please view the [LICENSE file].
 [supported]: #supported-types
 [type declaration]: http://php.net/functions.arguments#functions.arguments.type-declaration
 [verification]: http://eloquent-software.com/phony/latest/#verification
+[eloquent/phony-kahlan]: https://packagist.org/packages/eloquent/phony-kahlan

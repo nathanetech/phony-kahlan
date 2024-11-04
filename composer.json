@@ -1,49 +1,63 @@
 {
-    "name": "eloquent/phony-kahlan",
-    "description": "Phony for Kahlan.",
-    "keywords": ["mock", "mocking", "stub", "stubbing", "spy", "dummy", "double", "test", "fake"],
-    "homepage": "http://eloquent-software.com/phony/",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Erin Millard",
-            "email": "ezzatron@gmail.com",
-            "homepage": "http://ezzatron.com/"
-        }
-    ],
-    "require": {
-        "php": "^7.3 || ^8",
-        "eloquent/phony": "^5",
-        "kahlan/kahlan": "^5"
+  "name": "teamgantt/phony-kahlan",
+  "description": "Phony for Kahlan.",
+  "keywords": [
+    "mock",
+    "mocking",
+    "stub",
+    "stubbing",
+    "spy",
+    "dummy",
+    "double",
+    "test",
+    "fake"
+  ],
+  "homepage": "http://eloquent-software.com/phony/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Erin Millard",
+      "email": "ezzatron@gmail.com",
+      "homepage": "http://ezzatron.com/"
     },
-    "require-dev": {
-        "eloquent/code-style": "^1",
-        "eloquent/phpstan-phony": "^0.7",
-        "errors/exceptions": "^0.2",
-        "friendsofphp/php-cs-fixer": "^2",
-        "phpstan/extension-installer": "^1",
-        "phpstan/phpstan": "^0.12"
-    },
-    "autoload": {
-        "psr-4": {
-            "Eloquent\\Phony\\Kahlan\\": "src"
-        },
-        "files": [
-            "src/initialize.php",
-            "src/functions.php"
-        ]
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "Eloquent\\Phony\\Kahlan\\": "test/src"
-        },
-        "files": [
-            "test/src/object.php"
-        ]
-    },
-    "extra": {
-        "branch-alias": {
-            "dev-master": "4.1.x-dev"
-        }
+    {
+      "name": "Nathan Tech",
+      "email": "dev@teamgantt.com"
     }
+  ],
+  "require": {
+    "php": "^8.3",
+    "teamgantt/phony": "^1",
+    "kahlan/kahlan": "^5"
+  },
+  "require-dev": {
+    "eloquent/code-style": "^1",
+    "eloquent/phpstan-phony": "^0.7",
+    "errors/exceptions": "^0.2",
+    "friendsofphp/php-cs-fixer": "^2",
+    "phpstan/extension-installer": "^1",
+    "phpstan/phpstan": "^0.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "Eloquent\\Phony\\Kahlan\\": "src"
+    },
+    "files": [
+      "src/initialize.php",
+      "src/functions.php"
+    ]
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Eloquent\\Phony\\Kahlan\\": "test/src"
+    },
+    "files": [
+      "test/src/object.php"
+    ]
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "4.1.x-dev"
+    }
+  }
 }
