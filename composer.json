@@ -33,7 +33,7 @@
   ],
   "require": {
     "php": "^8.3",
-    "teamgantt/phony": "dev-master",
+    "teamgantt/phony": "^1",
     "kahlan/kahlan": "^5"
   },
   "require-dev": {
