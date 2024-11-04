@@ -2,12 +2,12 @@
 
 [![Current version image][version-image]][current version]
 
-[current version]: https://packagist.org/packages/nathanetech/phony-kahlan
-[version-image]: https://img.shields.io/packagist/v/nathanetech/phony-kahlan.svg?style=flat-square "This project uses semantic versioning"
+[current version]: https://packagist.org/packages/teamgantt/phony-kahlan
+[version-image]: https://img.shields.io/packagist/v/teamgantt/phony-kahlan.svg?style=flat-square "This project uses semantic versioning"
 
 ## Installation
 
-    composer require --dev nathanetech/phony-kahlan
+    composer require --dev teamgantt/phony-kahlan
 
 ## See also
 
@@ -17,7 +17,7 @@
 
 [documentation]: http://eloquent-software.com/phony/latest/
 [kahlan documentation]: https://kahlan.github.io/docs/
-[main phony repository]: https://github.com/nathanetech/phony
+[main phony repository]: https://github.com/teamgantt/phony
 
 ## What is *Phony for Kahlan*?
 
