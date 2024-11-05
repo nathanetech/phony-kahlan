@@ -25,12 +25,6 @@
       "email": "dev@teamgantt.com"
     }
   ],
-  "repositories": [
-    {
-      "url": "https://github.com/teamgantt/phony",
-      "type": "git"
-    }
-  ],
   "require": {
     "php": "^8.3",
     "teamgantt/phony": "^1",
